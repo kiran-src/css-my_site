@@ -1,0 +1,21 @@
+.top {
+  background-color: #8B9A46;
+  color: #0F0E0E;
+}
+.middle {
+  background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+.bottom {
+  background-color: green;
+    height: 200px;
+    width: 200px;
+}
+body {
+  margin: 0;
+  margin-bottom: 8px;
+}
+h1 {
+  margin-top: 0;
+}
