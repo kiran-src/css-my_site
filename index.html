@@ -7,20 +7,65 @@
     <title>Kiran Setty</title>
     <link rel="stylesheet" type="text/css"href="css/master.css">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito:wght@600&family=Saira&family=Saira+Condensed:wght@500&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="top">
-      <img src="images/cloud.png" alt="cloud">
-      <h1>I'm Kiran</h1>
-      <p>A programmer</p>
-        <img src="images/cloud.png" alt="cloud">
-          <img src="images/mountain.png" alt="mountain">
+      <!--
+      <img id="smoke-top"src="images/smoke2.png" alt="smoke">-->
+      <img id="cloud-1" src="images/cloud.png" alt="cloud">
+      <h1>Kiran Setty</h1>
+      <h2>A <span class="pro">pro</span>grammer.</h2>
+      <!-- span is an inline element, meaning that it won't break into a new
+      line when made, unlike block elements like h1, p, h2, etc. Other inline
+      elements are img and a. You cannot change the width of inline elements,
+      unlike border elements. You can make inline elements block elements in css
+      using display: inline;. You can make block elements inline elements in css
+      using display: block;. You can make an element inline-block to change the
+      width of an element whilst still having it displayed inline
+      (display: inline-block). display:none removes the element from display.
+    You can also remove visibility of an element using visibility: hidden;
+    which will not make it visible, but will still take up the same space. -->
+        <img id="cloud-2" src="images/cloud.png" alt="cloud">
+          <img id="mountain" src="images/mountain.png" alt="mountain">-->
     </div>
     <div class="middle">
-
+      <div class="profile">
+        <img id="pp" src="images/pp.jpg" alt="Kiran Profile Picture">
+        <h2>Hello.</h2>
+        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="circ" src="images/circle.png" alt="Circle">
+          <h3>Lorem & Ipsum</h3>
+          <p class="skill-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        </div>
+        <div class="skill-row">
+          <img class="circ" src="images/circle.png" alt="Circle">
+          <h3>Lorem Ipsum Dolor</h3>
+          <p class="skill-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
     </div>
+
+
     <div class="bottom">
-
+      <a class="footer-link" href="https://za.linkedin.com/in/kiran-setty-422664116/">LinkedIn</a>
+      <a class="footer-link" href="https://www.arttdesigns.com/">Website</a>
+      <p>© 2018 Kiran Setty.</p>
     </div>
+
   </body>
 </html>
