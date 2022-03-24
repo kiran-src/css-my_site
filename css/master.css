@@ -4,9 +4,6 @@
   position:relative;
   padding-top: 100px;
 }
-.middle {
-
-}
 .bottom {
 
 }
@@ -24,7 +21,7 @@ h1 {
   width: 500px;
   margin: 50px auto 0 auto;
   color: #66BFBF;
-  font-family: 'Aclonica', sans-serif;/*
+  font-family: 'Cinzel Decorative', cursive;/*
   position: absolute;
   top: 225px;
 right: 0;
@@ -32,17 +29,21 @@ left:0;
 text-align: center;*/
 }
 h2 {
-  font-family: 'Saira', sans-serif;
+  font-family: 'Sulphur Point', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   color: #66BFBF;
 }
 h3 {
-  font-family: 'Saira Semi Condensed', sans-serif;
-  color: #11999E;
+  font-family: 'Jost', sans-serif;
+  color: #66BFBF;
+}
+h4 {
+  font-family: 'Antic Slab', serif;
+  color: #12999F;
 }
 p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Antic Slab', serif;
 }
 .pro {
   text-decoration: underline;

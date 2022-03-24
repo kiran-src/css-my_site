@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Kiran Setty">
-    <meta name="description" content="A personal website designed to display competency in CSS">
-    <title>Kiran Setty</title>
-    <link rel="stylesheet" type="text/css"href="css/master.css">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito:wght@600&family=Saira&family=Saira+Condensed:wght@500&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top">
-      <!--
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kiran Setty">
+  <meta name="description" content="A personal website designed to display competency in CSS">
+  <title>Kiran Setty</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/b7377559f7.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- Style Sheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative&family=Jost:wght@300&family=Sulphur+Point&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+
+<body>
+  <section class="top">
+    <!--
       <img id="smoke-top"src="images/smoke2.png" alt="smoke">-->
-      <img id="cloud-1" src="images/cloud.png" alt="cloud">
-      <h1>Kiran Setty</h1>
-      <h2>A <span class="pro">pro</span>grammer.</h2>
-      <!-- span is an inline element, meaning that it won't break into a new
+    <img id="cloud-1" src="images/cloud.png" alt="cloud">
+    <h1>Kiran Setty</h1>
+    <h2>A <span class="pro">pro</span>grammer.</h2>
+    <!-- span is an inline element, meaning that it won't break into a new
       line when made, unlike block elements like h1, p, h2, etc. Other inline
       elements are img and a. You cannot change the width of inline elements,
       unlike border elements. You can make inline elements block elements in css
@@ -28,44 +43,71 @@
       (display: inline-block). display:none removes the element from display.
     You can also remove visibility of an element using visibility: hidden;
     which will not make it visible, but will still take up the same space. -->
-        <img id="cloud-2" src="images/cloud.png" alt="cloud">
-          <img id="mountain" src="images/mountain.png" alt="mountain">-->
-    </div>
-    <div class="middle">
-      <div class="profile">
-        <img id="pp" src="images/pp.jpg" alt="Kiran Profile Picture">
-        <h2>Hello.</h2>
-        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    <img id="cloud-2" src="images/cloud.png" alt="cloud">
+    <img id="mountain" src="images/mountain.png" alt="mountain">
+  </section>
+    <section class="statement">
+      <img id="pp" src="images/pp.jpg" alt="Kiran Profile Picture">
+      <h3>Hello.</h3>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </section>
+    <hr>
+    <section class="employment">
+
+    </section>
+    <hr>
+    <section class="projects">
+
+    </section>
+    <hr>
+    <section class="skills">
+      <h3>My Skills.</h3>
+      <div class="skill-row">
+        <img class="circ" src="images/circle.png" alt="Circle">
+        <h4>Lorem & Ipsum</h4>
+        <p class="skill-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
       </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="circ" src="images/circle.png" alt="Circle">
-          <h3>Lorem & Ipsum</h3>
-          <p class="skill-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
-        <div class="skill-row">
-          <img class="circ" src="images/circle.png" alt="Circle">
-          <h3>Lorem Ipsum Dolor</h3>
-          <p class="skill-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div>
+      <div class="skill-row">
+        <img class="circ" src="images/circle.png" alt="Circle">
+        <h4>Lorem Ipsum Dolor</h4>
+        <p class="skill-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-      </div>
-    </div>
+    </section>
+    <hr>
+    <section class="education">
+
+    </section>
+    <hr>
+    <section class="accomplishments">
+
+    </section>
+    <hr>
+    <section class="papers">
+
+    </section>
+    <hr>
+    <section class="interests">
+
+    </section>
+    <hr>
+    <section class="references">
+
+    </section>
+    <hr>
+    <section class="contact-me">
+      <h3>Get In Touch</h3>
+      <h4>Lorem ipsum dolor sit amet, non elit.</h4>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </section>
 
 
-    <div class="bottom">
-      <a class="footer-link" href="https://za.linkedin.com/in/kiran-setty-422664116/">LinkedIn</a>
-      <a class="footer-link" href="https://www.arttdesigns.com/">Website</a>
-      <p>© 2018 Kiran Setty.</p>
-    </div>
+  <div class="bottom">
+    <a class="footer-link" href="https://za.linkedin.com/in/kiran-setty-422664116/">LinkedIn</a>
+    <a class="footer-link" href="https://www.arttdesigns.com/">Website</a>
+    <p>© 2018 Kiran Setty.</p>
+  </div>
 
-  </body>
+</body>
+
 </html>
